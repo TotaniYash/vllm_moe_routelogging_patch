@@ -33,7 +33,7 @@ The calculated entropy is 5.8758 bits.
 Since the maximum possible entropy for 64 experts is 6.0, a score of 5.87 suggests that Qwen1.5-MoE has successfully avoided "expert collapse." 
 The model utilizes a high degree of its total parameter capacity to solve GSM8K math problems rather than over-specializing in a small subset of experts.
 
-### AI Usage log
-- **Tools used:** ChatGPT (GPT-4o) via VS Code.
-- **Tasks:** Identified the hook point in the Triton modular MoE path, structured the global variable for multiprocessing, and implemented filtering logic for profiling tokens.
-- **Verification:** Manually inspected the JSONL schema, verified expert ID variance in the log file, and validated the timing artifacts.
+## Tools Used
+*   **AI Platform:** Google AI Studio (Gemini 2.0 Flash / Gemini 2.0 Pro)
+*   Helped with identifying the exact code blocks that needed to be changed as well as sample code changes to be made.
+*   **Development Environment:** VS Code with Remote-SSH on a Vast.ai RTX 5090 instance.
